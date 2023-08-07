@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/font.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/flex.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/progress.css">
+   <link rel="stylesheet" href="css/page.css">
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+   <title>Hookah (هوکا)</title>
+</head>
+<body>
+   <!-- <div id="app-loader" active="true" >
+      <div class="icon-load">
+         <i class="fa fa-coffee fa-3x"></i>
+      </div>
+      <progress class="pure-material-progress-linear progress"></progress>
+      <span id="coffe-name">کافه هوکا</span> 
+   </div> -->
+
+      <div class="page" index="1">
+            <nav class="navigation">
+               <ul>
+                  <li>
+                     <div class="icon-title">
+                        <i class="fa fa-coffee fa-2x"></i>
+                        <h1 class="coffe-name">هوکا</h1> 
+                     </div>
+                  </li>
+                  <li></li>
+                  <li>
+                     <a class="button">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+
+      <div class="category">
+            <div class="swiper" >
+               <div class="swiper-wrapper" id="category-swiper">
+               <div class="swiper-slide">
+                  <a class="cat-item" href="#">
+                     <span class="cat-name">نوشیدنی</span>
+                  </a>
+               </div>
+               <div class="swiper-slide">
+                  <div class="swiper-slide">
+                     <a class="cat-item" href="#">
+                        <span class="cat-name">کیک</span>
+                     </a>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="swiper-slide">
+                     <a class="cat-item" href="#">
+                        <span class="cat-name">فست فود</span>
+                     </a>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="swiper-slide">
+                     <a class="cat-item" href="#">
+                        <span class="cat-name">قهوه</span>
+                     </a>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="swiper-slide">
+                     <a class="cat-item" href="#">
+                        <span class="cat-name">پیتزا</span>
+                     </a>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="swiper-slide">
+                     <a class="cat-item" href="#">
+                        <span class="cat-name">سیب زمینی</span>
+                     </a>
+                  </div>
+               </div>
+               </div>
+               <!-- If we need pagination -->
+               <!-- <div class="swiper-pagination"></div> -->
+
+               <!-- If we need scrollbar -->
+               <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+                        
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+      </div>
+      <div id="selected-category-container"  class="animate" style="text-align: center; opacity: 0; transition: 0.5s; font-size: 40px;">
+            <span> دسته بندی انتخاب شده </span>
+            <span id="selected-category">قهوه</span>
+      </div>
+      <div class="product-box">
+         <div class="product-slider">
+            <div class="card-center-bg" ></div>
+            <div class="swiper">
+               <div
+                 class="parallax-bg"
+                 style="background-image:url(path/to/image.jpg)"
+                 data-swiper-parallax="-23%"
+               ></div>
+               <div class="swiper-wrapper">
+                 <div class="swiper-slide">
+                     <div class="product-item">
+                        <img  src="/assets/images/cofee.jpg"/>
+                     </div>
+                     <div class="product-detail">
+                        <h3 class="product-title">عنوان محصول</h3>
+                           <p class="product-describe">توضیحات محصول در این بخش قرار خواهد گرفت</p>
+                           <span class="price  off"> 24000 تومان</span >
+                           <span class="price price-off">
+                              <span>20000 تومان</span>
+                           </span>
+                        </div>
+                 </div>
+                 <div class="swiper-slide">
+                  <div class="product-item">
+                     <img  src="/assets/images/cofee.jpg"/>
+                  </div>
+                  <div class="product-detail">
+                     <h3 class="product-title">عنوان محصول</h3>
+                        <p class="product-describe">توضیحات محصول در این بخش قرار خواهد گرفت</p>
+                        <span class="price  off"> 24000 تومان</span >
+                        <span class="price price-off">
+                           <span>20000 تومان</span>
+                        </span>
+                     </div>
+
+               </div>
+                <div class="swiper-slide">
+                  <div class="product-item">
+                     <img  src="/assets/images/cofee.jpg"/>
+                  </div>
+                  <div class="product-detail">
+                     <h3 class="product-title">عنوان محصول</h3>
+                        <p class="product-describe">توضیحات محصول در این بخش قرار خواهد گرفت</p>
+                        <span class="price  off"> 24000 تومان</span >
+                        <span class="price price-off">
+                           <span>20000 تومان</span>
+                        </span>
+                     </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="product-item">
+                     <img  src="/assets/images/cofee.jpg"/>
+                  </div>
+                  <div class="product-detail">
+                     <h3 class="product-title">عنوان محصول</h3>
+                        <p class="product-describe">توضیحات محصول در این بخش قرار خواهد گرفت</p>
+                        <span class="price  off"> 24000 تومان</span >
+                        <span class="price price-off">
+                           <span>20000 تومان</span>
+                        </span>
+                     </div>
+               </div>
+             </div>
+      </div>
+         </div>
+         <!-- <div class="product-detail">
+            <h3 class="product-title">عنوان محصول</h3>
+               <p class="product-describe">توضیحات محصول در این بخش قرار خواهد گرفت</p>
+               <span class="price  off"> 24000 تومان</span >
+               <span class="price price-off">
+                  <span>20000 تومان</span>
+               </span>
+            </div> -->
+      </div>
+   </div>
+   
+
+   <!-- <script src="./js/app.js"></script> -->
+   <script src="./js/slider.js"></script>
+   <script>
+      const catSlideItems = document.querySelectorAll('.category .swiper-slide .cat-item')
+      const selectedCategoryContainer = document.querySelector('#selected-category-container')
+      const selectedCategory = document.querySelector('#selected-category')
+      const categorySwiperNode = document.querySelector('#category-swiper')
+      
+      const swiper = new Swiper('.category .swiper',categoryOption);
+      
+      const productSlider = new Swiper('.product-slider .swiper',productSwiperOpt)
+      
+      const categories = [{name:'نوشیدنی'},{name:'کیک'},{name:'پیتزا'},{name:'قهوه'},{name:'سیب زمینی'}]
+      
+      const createCategoryItem = (name) => {
+         const nameEl = document.createElement('span')
+         nameEl.classList.add('cat-name')
+         nameEl.innerHTML = name
+
+         const linkTag = document.createElement('a')
+         linkTag.classList.add('cat-item')
+         linkTag.href = '#'
+         linkTag.appendChild(nameEl)
+
+         const swiperSlideEl = document.createElement('div')
+         swiperSlideEl.classList.add('swiper-slide')
+         swiperSlideEl.appendChild(linkTag)
+
+         return swiperSlideEl
+      }
+
+      const createCategorySlider = (categories = []) => {
+         categorySwiperNode.innerHTML = '';
+         const nodes = categories.map((cat)=>createCategoryItem(cat.name))
+         nodes.forEach((slide)=> categorySwiperNode.appendChild(slide))
+
+         const catSlideItems = document.querySelectorAll('.category .swiper-slide .cat-item')
+
+         const  clearActiveCategory = ()  => catSlideItems.forEach((item)=> item.classList.remove('active'))
+
+         catSlideItems.forEach((catItem,idx)=> {
+            catItem.addEventListener('click',(e)=> {
+               clearActiveCategory()
+               catItem.classList.add('active')
+               selectedCategoryContainer.style.opacity = 1;
+               selectedCategory.innerHTML = categories[idx].name
+            })
+         })
+
+      }
+
+      createCategorySlider(categories)
+
+
+   </script>
+</body>
+</html>

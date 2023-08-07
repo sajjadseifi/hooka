@@ -1,0 +1,98 @@
+@font-face {
+   font-family: NotoSans-Regular;
+   src: url(../assets/fonts/noto-sans-arabic/NotoSansArabic-Regular.ttf);
+}
+@font-face {
+   font-family: NotoSans-Medium;
+   src: url(../assets/fonts/noto-sans-arabic/NotoSansArabic-Medium.ttf);
+}
+@font-face {
+   font-family: NotoSans-Bold;
+   src: url(../assets/fonts/noto-sans-arabic/NotoSansArabic-Bold.ttf);
+}
+
+@font-face {
+   font-family: SansMono-Regular;
+   src: url(../assets/fonts/noto-sans-mono/NotoSansMono-Regular.ttf);
+}
+
+:root {
+      --primary: rgb(69, 47, 33);
+      --primary-light: hwb(22 16% 68%);
+      --secondary: rgb(201, 161, 118);
+      --secondary-light: rgb(221, 165, 105);
+      --swiper-theme-color : --secondary;
+
+}
+
+.color-p { color: var(--primary); }
+.color-pl { color: var(--primary-light); }
+.color-s { color: var(--secondary); }
+.color-sl { color: var(--secondary-light);}
+
+
+.bg-p { background-color : var(--primary); }
+.bg-pl { background-color : var(--primary-light); }
+.bg-s { background-color: var(--secondary); }
+.bg-sl { background-color: var(--secondary-light);}
+
+body{ 
+   position: relative;
+   font-size: 400%;
+   font-family: NotoSans-Regular,SansMono-Regular;
+   background-color: var(--primary);
+   color: var(--secondary);
+}
+#app-loader {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   transition: 1s;
+}
+#app-loader  .progress {
+   width: 40%;
+   height: 0.7rem;
+}
+#app-loader  #coffe-name {
+   line-height: 200%;
+   font-weight: bolder;
+
+}
+#app-loader .icon-load {
+}
+
+[active="true"] {
+   opacity: 1;
+}
+[active="false"] {
+   opacity: 0;
+}
+
+
+.icon-title {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.button {
+   background-color: var(--primary-light);
+   box-shadow: 0 0 5px 5px rgba(235, 162, 84, 0.1);
+   display: inline-block;
+   padding:  0 40px;
+   border-radius: 20px;
+   transition: 0.1s;
+   transform: scale(1);
+}
+
+.button:active {
+   transform: scale(0.8);
+}

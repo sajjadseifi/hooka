@@ -1,0 +1,15 @@
+* {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   direction: rtl;
+}
+body * {
+   user-select: none;
+}
+a {
+   display: inline-block;
+   text-decoration : none;
+   color : var(--secondary);
+   outline: 0;
+}

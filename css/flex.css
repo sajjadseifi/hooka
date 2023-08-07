@@ -1,0 +1,30 @@
+.felx {
+   display: flex;
+}
+.felx-col {
+   flex-direction: column;   
+}
+
+.felx-col.flex-reverse {
+   flex-direction: column-reverse;   
+}
+
+.felx-row {
+   flex-direction: row;   
+}
+
+.felx-row.flex-reverse {
+   flex-direction: row-reverse;   
+}
+
+.flex-1 {
+   flex: 1;
+}
+
+.flex-2 {
+   flex: 2;
+}
+
+.flex-3 {
+   flex:3;
+}

@@ -1,0 +1,4 @@
+const PRIMARY = '#452F21'
+const SECONDARY = '#BF8C57'
+const PRIMARY_LIGHT = '#523829'
+const SECONDARY_LIGTH = '#C18E55'
